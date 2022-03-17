@@ -1,0 +1,432 @@
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+Body{
+font-family: Times, Times New Roman, serif;
+font-size: 1em;
+background-color: white;
+}
+
+#logo{
+	margin: 10px;
+	width: all;
+	height: 50px;
+	padding: 10px;
+	background-image: linear-gradient(to bottom, #b4f8fe, white);
+
+}
+
+#dentes{
+	height: 112px;
+	position: relative;
+	top: -25px;
+	left: 25px;
+}
+
+#nome-logo{
+	font-size: 1.6em;
+	text-align: center;
+	position: relative;
+	top: -108px;
+	left: -550px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#cabecalho{
+	height: 560px;
+	padding: 10px;
+	margin: 0 10px 0 10px;
+}
+
+#foto-cabecacho{
+float: right;
+border-radius: 12px;
+padding: 0 5px;
+max-width: 19.4%;
+}
+
+#menu{
+	height: 31px;
+	padding: 10px;
+	margin: 0 10px;
+	background-image: linear-gradient(to top,  #b4f8fe, white);
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#menu a:link, #menu a:visited{
+	color: black;
+	font-family: Impact, fantasy;
+	border-width: 12px;
+
+}
+
+#menu a:hover{
+	color: white;
+	border-radius: 7px;
+	 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+}
+
+.links-menu{
+	padding: 5px;
+	text-decoration: none;
+}
+
+#aprofissional{
+	margin: 5px 10px;
+	width: 80%;
+}
+
+#aprofissional video{
+	border-radius: 30px;
+}
+
+#tit-aprof h1{
+	background-image: linear-gradient(to bottom, #b4f8fe, white);
+	border-radius: 5px;
+	margin: 5px 10px;
+	position: absolute;
+	text-align: left;
+	width: 1010px;
+	height: 42px;
+	left: 500px;
+	top: 730px;
+}
+
+#tit-Acl h1{
+	background-image: linear-gradient(to bottom, #b4f8fe, white);
+	border-radius: 5px;
+	margin: 5px 10px;
+	position: absolute;
+	text-align: left;
+	width: 1492px;
+	height: 42px;
+
+	}
+#tit-con h1{
+background-image: linear-gradient(to bottom, #b4f8fe, white);
+	border-radius: 5px;
+	margin: 5px 10px;
+	position: absolute;
+	text-align: left;
+	width: 1510px;
+	height: 42px;
+	left:1px;
+}
+
+
+
+h1{
+text-align: left;
+padding: 6px 0 0 10px;
+}
+
+h2{text-align: left;
+padding: 6px 0 0 10px;
+}
+
+p{
+padding: 10px 0 0 10px;
+}	
+
+#aprofissional video{
+	padding: 10px;
+	float: left;
+}
+
+#clinica{
+	margin: 5px 10px;
+	width: 80%;	
+}
+
+#clinica img{
+	padding: 10px;
+	max-width: 500px;
+	height: 333px;
+}
+
+#convenios{
+	margin: 5px 10px;
+	width: 80%;
+}
+
+#convenios img{
+	max-width: 150px;
+	border: solid 1px black;
+	margin: 38px;
+	opacity: 30%;
+
+}
+
+#convenios img:hover{
+	opacity: 100%;
+	cursor: pointer;
+
+}
+
+#allianz{
+	position: absolute;
+	width: 13%;
+	padding: 10px 0;
+
+}
+
+#Amil{
+	position: absolute;
+	width: 13%;
+	padding: 10px 0;
+	left: 250px;
+
+}
+
+#hapvida{
+	position: absolute;
+	width: 13%;
+	padding: 10px 0;
+	left: 500px;
+
+}
+
+#medprev{
+	position: absolute;
+	width: 13%;
+	padding: 10px 0;
+	left: 745px;
+
+}
+
+#suamerica{
+	position: absolute;
+	width: 13%;
+	padding: 10px 0;
+	left: 1010px;
+
+}
+
+#unimed{
+	position: absolute;
+	width: 13%;
+	padding: 10px 0;
+	left: 1290px;
+
+}
+
+#convenios-ocultos{
+	opacity: 0;
+}
+
+#contato{
+	margin: 5px 10px;
+	width: 80%;
+	background-image: url(assets/fotofinal.jpg);
+	animation: mymove 55s infinite;
+	background-size: cover;
+
+}
+
+@keyframes mymove {
+	0%,100%{
+		background-position: top;
+	}
+	45%,55%{
+		background-position: bottom;
+	}
+}
+
+#contato img{
+	height: 30px;
+	margin: 5px;
+	
+	padding: 3px;
+	border-radius: 15px;
+    display: span;
+}
+
+
+#contato a:link, #contato a:visited{
+	display: flex;
+	border: 1px solid gray;
+	width: 330px;
+	margin: 10px;
+	border-radius: 25px;
+	background-color: white;
+	text-decoration: none;
+	color: #575757;
+}
+
+#contato a:hover{
+	text-decoration: none;
+	background-color: #e8e8e8;
+	color: #000000;
+}
+
+#contato span{
+	position: relative;
+	top: 12px;
+	font-size: 1.2em;
+	width: 330px;
+}
+
+#asredes{
+	position: relative;
+	top: -4px;
+}
+
+#creditos{
+	width: 100%;
+	margin: 10px;
+}
+
+#creditos h1, #creditos h2{
+	font-family: sans-serif ;
+	text-align: center;
+	margin: 10px;
+
+}
+
+ #creditos a:link, #creditos a:visited,  #creditos a:hover{
+ 	text-decoration: none;
+ 	cursor: pointer;
+ 	color: black;
+
+
+ }
+
+hr{
+	margin: 10px;
+}
+
+#linha-vertical {
+    height: 200px;
+    border-right: 2px solid gray;
+    position: absolute;
+    right:362px;
+    top:  735px;
+    height: 2516px;
+    }
+
+#barra-lateral{
+	width: 18%;
+	height: 126%;
+	position: absolute;
+	top: 734px;
+	right: 10px;
+}
+
+#barra-lateral p{
+	padding: 6px 0 35px 10px;
+}
+
+#barra-lateral h1{
+	background-image: linear-gradient(to bottom, #b4f8fe, white);
+	text-align: center;
+	height: 42px;
+}
+
+#barra-lateral h2{
+	text-align: center;
+	background-image: linear-gradient(to bottom, #ccf5ff, white);
+
+}
+
+.pr{
+
+	border-style: none outset outset outset;
+	border-radius: 5px;
+	margin: 0 0 15px 0;
+	position: relative;
+	top: 20px;
+}
+
+.pr:hover{
+	border-style: none inset inset inset;
+	cursor: pointer;
+	background-image: linear-gradient(to top, #ccf5ff, white);
+}
+
+
+
+#datas{	
+	width: 18%;
+	height: 136%;
+	position: absolute;
+	top: 2070px;
+	right: 10px;
+	border-radius: 10px;
+}
+
+	#datas h1{
+		text-align: center;
+		background-image: linear-gradient(to bottom, #b4f8fe, white);
+
+	}
+
+#datas p{
+	padding: 6px 0 0px 10px;
+	text-align: center;
+
+}
+
+#datas h2{
+	padding: 20px 0 5px 10px;
+		text-align: center;
+}
+
+#datas a{
+	padding: 6px 0 3px 10px;
+	text-align: center;
+	display: block;
+
+}
+
+#setembro{
+opacity: 45%;
+}
+
+#setembro:hover{
+			opacity: 100%;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#outubro{
+opacity: 45%;
+}
+
+#outubro:hover{
+		opacity: 100%;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+#novembro{
+opacity: 45%;
+}
+
+#novembro:hover{
+		opacity: 100%;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#dezembro{
+opacity: 45%;
+}
+
+#dezembro:hover{
+	opacity: 100%;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#datas a:visited, #datas a:link{
+color: black;
+font-weight: bold;
+text-decoration: none;
+}
