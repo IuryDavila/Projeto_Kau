@@ -481,6 +481,62 @@ p::first-letter {
 
 }
 
+/* ------------------------------------------------------- Contato ------------------------------------------------------------- */
+
+.principal_contatos{
+	width: 317%;
+	height: 646px;
+}
+
+.principal_contatos .imagem_contato{
+	padding: 10px;
+	display: inline-block;
+	position: relative;
+	bottom: 299px;
+}
+
+.principal_contatos .video_contato{
+	display: inline-block;
+	padding-top: 10px;
+    padding-bottom: 4px;
+}
+
+.principal_contatos .contatos{
+	display: inline-block;
+	max-width: 248px;
+    margin: 10px;
+}
+
+.principal_contatos .contatos i{
+	display: inline-block;
+	position: relative;
+	left: 201px;
+    bottom: 21px;
+}
+
+.blocos_contatos{
+	margin-bottom: 100px;
+	display: inline-block;
+    width: 250px;
+    border-bottom: 5px solid var(--cor2);
+    border-radius: 12px;
+    padding-top: 12px;
+}
+
+.blocos_contatos h3{
+	font-size: 1.2em;
+	position: relative;
+	top: 11px;
+	padding-left: 33px;
+}
+
+.blocos_contatos:hover{
+	cursor: pointer;
+	background-color: var(--cor2);
+	border-radius: 7px;
+}
+
+
 /* ------------------------------------------------------- rules ------------------------------------------------------------- */
 
 @media(max-width: 453px){
@@ -570,6 +626,31 @@ p::first-letter {
 	padding: 10px;
 }
 
+
+.principal_contatos .imagem_contato img{
+ width: 310px;
+ position: relative;
+ top: 48px;
+}
+
+.principal_contatos .video_contato video{
+ position: relative;
+ width: 310px;
+ height: 482px;
+ bottom: 16px;
+}
+
+.blocos_contatos{
+	margin-bottom: 40px;
+	position: relative;
+	bottom: 35px;
+}
+
+.principal_contatos{
+	height: 526px;
+}
+
+
 }
 
 @media(max-width: 991px){
@@ -649,6 +730,44 @@ width: 73%;
     left: 40px;
 }
 
+.principal_contatos .imagem_contato img{
+ width: 184px;
+ position: relative;
+ top: -51px;
+}
+
+.principal_contatos .video_contato video{
+ position: relative;
+ width: 184px;
+ height: 482px;
+ bottom: 93px;
+}
+
+.blocos_contatos {
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 167px;
+    width: 225px;
+}
+
+.principal_contatos{
+	height: 415px;
+}
+
+.blocos_contatos h3{
+	font-size: 1em;
+	position: relative;
+	top: 11px;
+	padding-left: 33px;
+}
+
+.principal_contatos .contatos i {
+    display: inline-block;
+    position: relative;
+    left: 176px;
+    bottom: 21px;
+
+}
 }
 
 @media(max-width: 767px){
@@ -740,6 +859,82 @@ width: 73%;
 	left: 25px;
 }
 
+.principal_contatos .imagem_contato img{
+ width: 184px;
+ position: relative;
+ top: -51px;
+ display: none;
+}
+
+.principal_contatos .video_contato video{
+ position: relative;
+ width: 178px;
+ height: 482px;
+ bottom: 93px;
+}
+
+.blocos_contatos {
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 186px;
+    width: 202px;
+}
+
+.principal_contatos{
+	height: 329px;
+}
+
+.blocos_contatos h3{
+	font-size: 0.8em;
+	position: relative;
+	top: 11px;
+	padding-left: 33px;
+}
+
+.principal_contatos .contatos i {
+    display: inline-block;
+    position: relative;
+    left: 146px;
+    bottom: 21px;
+
+}
+
+}
+
+
+@media(max-width: 554px){
+	.principal_contatos .video_contato video{
+ position: relative;
+ width: 143px;
+ height: 482px;
+ bottom: 93px;
+}
+
+.blocos_contatos {
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 186px;
+    width: 202px;
+}
+
+.principal_contatos{
+	height: 329px;
+}
+
+.blocos_contatos h3{
+	font-size: 0.8em;
+	position: relative;
+	top: 11px;
+	padding-left: 33px;
+}
+
+.principal_contatos .contatos i {
+    display: inline-block;
+    position: relative;
+    left: 146px;
+    bottom: 21px;
+
+}
 }
 
 @media(max-width: 523px){
@@ -750,12 +945,12 @@ width: 73%;
     bottom: 258px;
     left: 158px;
 }
-}
+
 
 .principal_aprofissional .textos p{
 	font-size: 0.5em;
 }	
-
+}
 
 @media(max-width: 514px){
 .container{
@@ -851,4 +1046,45 @@ display: none;
     position: relative;
     bottom: 10px;
 	}
+
+.principal_contatos .video_contato video{
+    position: relative;
+    width: 138px;
+    height: 269px;
+    bottom: 17px;
+}
+
+.blocos_contatos {
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 26px;
+    width: 168px;
+}
+
+.principal_contatos{
+	height: 329px;
+}
+
+.blocos_contatos h3{
+	font-size: 0.6em;
+    position: relative;
+    top: 11px;
+    padding-left: 33px;
+}
+
+.principal_contatos .contatos i {
+	display: inline-block;
+    position: relative;
+    left: 119px;
+    bottom: 21px;
+
+}
+
+.principal_contatos .contatos {
+    display: inline-block;
+    max-width: 248px;
+    margin: 10px;
+    width: 180px;
+}
+
 }
